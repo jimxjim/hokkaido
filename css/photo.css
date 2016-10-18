@@ -1,0 +1,131 @@
+.photo {
+    width: 30%;
+    height: 30%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    float: left;
+    background-size: 100%;
+}
+.p1 {
+    background-image: url(../image/pho1.jpg);
+}
+.p2 {
+    background-image: url(../image/pho2.jpg);
+}
+.p3 {
+    background-image: url(../image/pho3.jpg);
+}
+.p4 {
+    background-image: url(../image/pho4.jpg);
+}
+.p5 {
+    background-image: url(../image/pho5.jpg);
+}
+.p6 {
+    background-image: url(../image/pho6.jpg);
+}
+.p7 {
+    background-image: url(../image/pho7.jpg);
+}
+.p8 {
+    background-image: url(../image/pho8.jpg);
+}
+.p9 {
+    background-image: url(../image/pho9.jpg);
+}
+.box {
+    position: relative;
+    width: 70%;
+    height: 10%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    top: 6%;
+    bottom: 3%;
+    left: 15%;
+    border-radius: 5px;
+    color: #111;
+    cursor: pointer;
+    background-color: red;
+    margin-top: 5%;
+}
+.box a {
+	text-decoration: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 33px;
+    font-weight: bold;
+    background: radial-gradient(#FF9060 25%,#FF5910 75%);
+    border-radius: 5px;
+}
+
+a:active {
+	text-decoration: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#makeMeScrollable
+		{
+			width:100%;
+			height: 50%;
+			position: relative;
+			top:2%;
+		}
+		
+		/* Replace the last selector for the type of element you have in
+		   your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
+		   if you have links use #makeMeScrollable div.scrollableArea a and so on. */
+		#makeMeScrollable div.scrollableArea img
+		{
+			position: relative;
+			float: left;
+			margin: 0;
+			padding: 0;
+			/* If you don't want the images in the scroller to be selectable, try the following
+			   block of code. It's just a nice feature that prevent the images from
+			   accidentally becoming selected/inverted when the user interacts with the scroller. */
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+		}
+
+body {
+	height: 180%;
+}
+
+.content {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #C1F0F3;
+	top:15%;
+}
+
+.contentL {
+	position: relative;
+	height: 155%;
+	width: 15%;
+	background: linear-gradient(180deg,#54E8F3,#5FEDF3);
+	float: left;
+}
+
+
+.footer {
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	background-color: #FF5910;
+	top:170%;
+}

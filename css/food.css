@@ -1,0 +1,68 @@
+.box {
+    position: relative;
+    width: 70%;
+    height: 22%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    margin-left: 15%;
+    border-radius: 15px;
+    background-position: 50% 50%;
+    color: #111;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.box span {
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #C1F0F3;
+    border-radius: 50%;
+}
+.a {
+    background-image: url(../image/seafood.jpg);
+}
+.b {
+    background-image: url(../image/ramen.jpg);
+}
+.c {
+    background-image: url(../image/melon.jpg);
+}
+.d {
+    background-image: url(../image/winter.jpg);
+}
+.show {
+    opacity: 1;
+}
+
+.img {
+	position: relative;
+	width: 55%;
+	height: 70%;
+	border-radius: 15px;
+	top: 15%;
+	left: 5%;
+	float: left;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+.text {
+	position: relative;
+	width: 30%;
+	height: 70%;
+	background: radial-gradient(#FF9060 25%,#FF5910 75%);
+	float: left;
+	top:15%;
+	left: 10%;
+	border-radius: 10px;
+	font-size: 22px;
+	font-weight: bold;
+}
